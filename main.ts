@@ -1,6 +1,9 @@
 input.onButtonPressed(Button.A, function () {
     dfplayermini.playFile(99, dfplayermini.isRepeat.No)
 })
+input.onGesture(Gesture.ScreenDown, function () {
+	
+})
 input.onButtonPressed(Button.B, function () {
     dfplayermini.playFile(10, dfplayermini.isRepeat.No)
 })
